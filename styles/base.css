@@ -1,0 +1,63 @@
+.none {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Studio Pro';
+    src: url('../fonts/studio-pro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Studio Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.24px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 375px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.04;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 64px;
+        line-height: 1;
+        letter-spacing: -0.96px;
+    }
+}
+
+.title-span {
+    opacity: 0.3;
+}
+
+.title-green-span {
+    color: #576F35;
+}
